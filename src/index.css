@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-display text-slate-800 dark:text-slate-200 bg-background-light dark:bg-background-dark;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass-nav {
+    backdrop-filter: blur(12px);
+    background-color: rgba(15, 31, 35, 0.85);
+  }
+}
