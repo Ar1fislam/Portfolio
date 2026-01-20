@@ -59,13 +59,13 @@ export const SKILLS_DATA = [
 export const PROJECTS_DATA = [
     {
         title: "Travel Buddy",
-        description: "",
+        description: "TravelBuddy is a social-travel web platform that helps travelers create travel plans and find compatible travel buddies.",
         tags: ["Next.js", "Node.js"],
-        image: "https://placehold.co/600x400/2563eb/ffffff?text=Travel+Buddy",
+        image: "/public/tb-ss.png",
         year: "2025",
         bg: "bg-emerald-700",
-        github: "#",
-        live: "#"
+        github: "https://github.com/Ar1fislam/B5A8-frontend",
+        live: "https://b5a8-frontend.vercel.app/"
     },
     {
         title: "Demo Project 1",

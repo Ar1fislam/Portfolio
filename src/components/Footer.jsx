@@ -20,13 +20,13 @@ const Footer = () => {
                 </p>
 
                 <div className="flex items-center gap-6">
-                    <a href="https://github.com" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
+                    <a href="https://github.com/Ar1fislam" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
                         <Github size={20} />
                     </a>
                     <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors">
                         <Linkedin size={20} />
                     </a>
-                    <a href="mailto:alex@johnson.dev" className="text-slate-400 hover:text-primary transition-colors">
+                    <a href="mailto:ariful.islam.cs191@gmail.com" className="text-slate-400 hover:text-primary transition-colors">
                         <Mail size={20} />
                     </a>
                 </div>

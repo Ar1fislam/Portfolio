@@ -52,13 +52,13 @@ const Hero = () => {
                         </button>
 
                         <div className="flex items-center gap-4 px-4 border-l border-slate-200 dark:border-white/10 ml-2">
-                            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors hover:scale-110 transform">
+                            <a href="https://github.com/Ar1fislam" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors hover:scale-110 transform">
                                 <Github size={24} />
                             </a>
                             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-primary transition-colors hover:scale-110 transform">
                                 <Linkedin size={24} />
                             </a>
-                            <a href="mailto:alex@johnson.dev" className="text-slate-400 hover:text-primary transition-colors hover:scale-110 transform">
+                            <a href="mailto:ariful.islam.cs191@gmail.com" className="text-slate-400 hover:text-primary transition-colors hover:scale-110 transform">
                                 <Mail size={24} />
                             </a>
                         </div>
@@ -70,7 +70,7 @@ const Hero = () => {
                     <div className="relative w-full max-w-md aspect-square">
                         <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full animate-pulse"></div>
                         <div
-                            className="relative z-10 w-full h-full rounded-full overflow-hidden border border-white/10 bg-slate-800 shadow-2xl"
+                            className="relative z-10 w-full h-full rounded-full overflow-hidden  border-white/10 bg-slate-800 shadow-2xl"
                             style={{
                                 backgroundImage: 'url("https://i.ibb.co/23gnKdpn/official-pic-1.png")',
                                 backgroundSize: 'cover',
@@ -79,7 +79,7 @@ const Hero = () => {
                         ></div>
 
                         {/* Experience Card */}
-                        <div className="absolute -bottom-6 -right-6 z-20 bg-background-dark/80 backdrop-blur-md p-6 rounded-xl border border-white/10 shadow-2xl hidden md:flex items-center gap-6">
+                        {/* <div className="absolute -bottom-6 -right-6 z-20 bg-background-dark/80 backdrop-blur-md p-6 rounded-xl border border-white/10 shadow-2xl hidden md:flex items-center gap-6">
                             <div className="text-primary">
                                 <p className="text-3xl font-black">5+</p>
                                 <p className="text-[10px] uppercase tracking-wider font-bold opacity-70">Years Exp.</p>
@@ -89,7 +89,7 @@ const Hero = () => {
                                 <p className="text-3xl font-black">50+</p>
                                 <p className="text-[10px] uppercase tracking-wider font-bold opacity-70">Projects</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
