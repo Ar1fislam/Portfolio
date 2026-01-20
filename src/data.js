@@ -61,7 +61,7 @@ export const PROJECTS_DATA = [
         title: "Travel Buddy",
         description: "TravelBuddy is a social-travel web platform that helps travelers create travel plans and find compatible travel buddies.",
         tags: ["Next.js", "Node.js"],
-        image: "/public/tb-ss.png",
+        image: "/tb-ss2.png",
         year: "2025",
         bg: "bg-emerald-700",
         github: "https://github.com/Ar1fislam/B5A8-frontend",
